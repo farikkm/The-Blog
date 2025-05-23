@@ -24,10 +24,10 @@ git clone https://github.com/your-username/blog-viewer.git
 cd blog-viewer
 
 - Install dependencies:
-
-```npm install
+npm install
 
 - Start the development server:
-```npm run dev
+npm run dev
+```
 
-- This project is licensed under the MIT License.
+### This project is licensed under the MIT License.
