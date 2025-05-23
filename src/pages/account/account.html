@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">Timur</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Home Page</a></li>
+                    <li><a href="/signup" class="nav-link">New Blog</a></li>
+                    <li><a href="" class="nav-link active">Account</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <div class="content">
+                <h1 class="page-title">Timur</h1>
+                <div class="divider"></div>
+                <p class="no-stories">Timur hasn't written any stories yet</p>
+                
+                <footer class="footer">
+                    <div class="copyright">© 2023</div>
+                    <div class="social-links">
+                        <a href="" class="social-link">Twitter</a>
+                        <a href="" class="social-link">LinkedIn</a>
+                        <a href="" class="social-link">Email</a>
+                        <a href="" class="social-link">RSS feed</a>
+                        <a href="" class="social-link">Add to Feedly</a>
+                    </div>
+                </footer>
+            </div>
+            
+            <aside class="sidebar">
+                <div class="profile-card">
+                    <div class="avatar">
+                        <img src="data:image/png;base64,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" alt="">                            
+                        </svg>
+                    </div>
+                    <h2 class="profile-name">Timur</h2>
+                    <div class="profile-actions">
+                        <button class="btn-follow">Follow</button>
+                        <button class="btn-email">
+                        <i class="fas fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
